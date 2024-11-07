@@ -1,0 +1,2695 @@
+[
+    {
+        "entities": [
+            {
+                "id": "Acylcarnitine_profile_34465376_6",
+                "text": "Acylcarnitine profile",
+                "type": "thing"
+            },
+            {
+                "id": "elevated_concentrations_34465376_6",
+                "text": "elevated concentrations",
+                "type": "symptom"
+            },
+            {
+                "id": "tetradecanoylcarnitine_34465376_6",
+                "text": "tetradecanoylcarnitine",
+                "type": "substance"
+            },
+            {
+                "id": "tetradecanoylcarnitine_C14:1_34465376_6",
+                "text": "tetradecanoylcarnitine C14:1",
+                "type": "substance"
+            },
+            {
+                "id": "C14:1/C16_34465376_6",
+                "text": "C14:1/C16",
+                "type": "substance"
+            },
+            {
+                "id": "C14_34465376_6",
+                "text": "C14",
+                "type": "substance"
+            }
+        ],
+        "relations": [
+            {
+                "type": "indicates",
+                "subject": "Acylcarnitine_profile_34465376_6",
+                "object": "elevated_concentrations_34465376_6"
+            },
+            {
+                "type": "consists_of",
+                "subject": "elevated_concentrations_34465376_6",
+                "object": "tetradecanoylcarnitine_34465376_6"
+            },
+            {
+                "type": "consists_of",
+                "subject": "elevated_concentrations_34465376_6",
+                "object": "tetradecanoylcarnitine_C14:1_34465376_6"
+            },
+            {
+                "type": "consists_of",
+                "subject": "elevated_concentrations_34465376_6",
+                "object": "C14:1/C16_34465376_6"
+            },
+            {
+                "type": "sameAs",
+                "subject": "C14_34465376_6",
+                "object": "tetradecanoylcarnitine_34465376_6"
+            }
+        ],
+        "sent_id": "34465376_6",
+        "text": "Acylcarnitine profile revealed elevated concentrations of tetradecanoylcarnitine (C14), tetradecanoylcarnitine C14:1, and C14:1/C16."
+    },
+    {
+        "entities": [
+            {
+                "id": "Auto-defibrillation_31787101_6",
+                "text": "Auto-defibrillation",
+                "type": "event"
+            },
+            {
+                "id": "5_hours_31787101_6",
+                "text": "5 hours and 44 minutes",
+                "type": "time"
+            },
+            {
+                "id": "occurred_31787101_6",
+                "text": "occurred",
+                "type": "event"
+            },
+            {
+                "id": "29.8\u2009\u00b0C_31787101_6",
+                "text": "29.8\\u2009\u00b0C",
+                "type": "value"
+            },
+            {
+                "id": "DUMMY_31787101_6",
+                "text": "DUMMY",
+                "type": "person"
+            },
+            {
+                "id": "cardiopulmonary_resuscitation_31787101_6",
+                "text": "continued cardiopulmonary resuscitation",
+                "type": "event"
+            }
+        ],
+        "relations": [
+            {
+                "type": "temporally_related_to",
+                "subject": "Auto-defibrillation_31787101_6",
+                "object": "5_hours_31787101_6"
+            },
+            {
+                "type": "carries_out",
+                "subject": "Auto-defibrillation_31787101_6",
+                "object": "occurred_31787101_6"
+            },
+            {
+                "type": "carries_out",
+                "subject": "Auto-defibrillation_31787101_6",
+                "object": "29.8\u2009\u00b0C_31787101_6"
+            },
+            {
+                "type": "treated_by",
+                "subject": "DUMMY_31787101_6",
+                "object": "cardiopulmonary_resuscitation_31787101_6"
+            },
+            {
+                "type": "temporally_related_to",
+                "subject": "cardiopulmonary_resuscitation_31787101_6",
+                "object": "5_hours_31787101_6"
+            }
+        ],
+        "sent_id": "31787101_6",
+        "text": "Auto-defibrillation occurred at a core temperature of 29.8\\u2009\u00b0C after 5 hours and 44\\u2009minutes of continued cardiopulmonary resuscitation."
+    },
+    {
+        "entities": [
+            {
+                "id": "he_36797755_3",
+                "text": "he",
+                "type": "person"
+            },
+            {
+                "id": "heparin_36797755_3",
+                "text": "intravenous heparin",
+                "type": "treatment"
+            },
+            {
+                "id": "popliteal_embolectomy_36797755_3",
+                "text": "emergency popliteal embolectomy",
+                "type": "treatment"
+            },
+            {
+                "id": "calf_fasciotomies_36797755_3",
+                "text": "calf fasciotomies",
+                "type": "treatment"
+            },
+            {
+                "id": "limb_saving_36797755_3",
+                "text": "limb saving",
+                "type": "event"
+            }
+        ],
+        "relations": [
+            {
+                "type": "treated_by",
+                "subject": "he_36797755_3",
+                "object": "heparin_36797755_3"
+            },
+            {
+                "type": "treated_by",
+                "subject": "he_36797755_3",
+                "object": "popliteal_embolectomy_36797755_3"
+            },
+            {
+                "type": "treated_by",
+                "subject": "he_36797755_3",
+                "object": "calf_fasciotomies_36797755_3"
+            },
+            {
+                "type": "causes",
+                "subject": "heparin_36797755_3",
+                "object": "limb_saving_36797755_3"
+            },
+            {
+                "type": "causes",
+                "subject": "popliteal_embolectomy_36797755_3",
+                "object": "limb_saving_36797755_3"
+            },
+            {
+                "type": "causes",
+                "subject": "calf_fasciotomies_36797755_3",
+                "object": "limb_saving_36797755_3"
+            }
+        ],
+        "sent_id": "36797755_3",
+        "text": "He was started on intravenous heparin and underwent an emergency popliteal embolectomy and calf fasciotomies, which was limb saving."
+    },
+    {
+        "entities": [
+            {
+                "id": "patient_33441160_0",
+                "text": "83-year-old Han Chinese woman",
+                "type": "person"
+            },
+            {
+                "id": "heart_failure_symptoms_33441160_0",
+                "text": "heart failure symptoms",
+                "type": "symptom"
+            },
+            {
+                "id": "late_macro-dislodgement_of_an_atrial_pacing_lead_33441160_0",
+                "text": "late macro-dislodgement of an atrial pacing lead",
+                "type": "condition"
+            },
+            {
+                "id": "for_7_years_33441160_0",
+                "text": "for 7 years",
+                "type": "time"
+            }
+        ],
+        "relations": [
+            {
+                "type": "exhibits",
+                "subject": "patient_33441160_0",
+                "object": "heart_failure_symptoms_33441160_0"
+            },
+            {
+                "type": "causes",
+                "subject": "late_macro-dislodgement_of_an_atrial_pacing_lead_33441160_0",
+                "object": "heart_failure_symptoms_33441160_0"
+            },
+            {
+                "type": "temporally_related_to",
+                "subject": "heart_failure_symptoms_33441160_0",
+                "object": "for_7_years_33441160_0"
+            }
+        ],
+        "sent_id": "33441160_0",
+        "text": " An 83-year-old Han Chinese woman presented with heart failure symptoms for 7 years due to the late macro-dislodgement of an atrial pacing lead."
+    },
+    {
+        "entities": [
+            {
+                "id": "unfit_33050943_4",
+                "text": "unfit",
+                "type": "negation"
+            },
+            {
+                "id": "liver_transplantation_33050943_4",
+                "text": "liver transplantation",
+                "type": "treatment"
+            },
+            {
+                "id": "he_33050943_4",
+                "text": "he",
+                "type": "person"
+            },
+            {
+                "id": "renal_complications_33050943_4",
+                "text": "renal complications",
+                "type": "condition"
+            },
+            {
+                "id": "cardiac_complications_33050943_4",
+                "text": "cardiac complications",
+                "type": "condition"
+            }
+        ],
+        "relations": [
+            {
+                "type": "negates",
+                "subject": "unfit_33050943_4",
+                "object": "liver_transplantation_33050943_4"
+            },
+            {
+                "type": "treated_by",
+                "subject": "he_33050943_4",
+                "object": "liver_transplantation_33050943_4"
+            },
+            {
+                "type": "affected_by",
+                "subject": "he_33050943_4",
+                "object": "renal_complications_33050943_4"
+            },
+            {
+                "type": "affected_by",
+                "subject": "he_33050943_4",
+                "object": "cardiac_complications_33050943_4"
+            },
+            {
+                "type": "has_feature",
+                "subject": "he_33050943_4",
+                "object": "unfit_33050943_4"
+            },
+            {
+                "type": "causes",
+                "subject": "renal_complications_33050943_4",
+                "object": "unfit_33050943_4"
+            },
+            {
+                "type": "causes",
+                "subject": "cardiac_complications_33050943_4",
+                "object": "unfit_33050943_4"
+            }
+        ],
+        "sent_id": "33050943_4",
+        "text": "Although liver transplantation was desired, he was considered unfit for transplantation because of his renal and cardiac complications."
+    },
+    {
+        "entities": [
+            {
+                "id": "self-report_questionnaires_32912329_7",
+                "text": "self-report questionnaires",
+                "type": "test"
+            },
+            {
+                "id": "anxiety_32912329_7",
+                "text": "anxiety",
+                "type": "condition"
+            },
+            {
+                "id": "depression_32912329_7",
+                "text": "depression",
+                "type": "condition"
+            },
+            {
+                "id": "post-traumatic_stress_disorder_32912329_7",
+                "text": "post-traumatic stress disorder",
+                "type": "condition"
+            },
+            {
+                "id": "did_not_have_signs_32912329_7",
+                "text": "did not have signs",
+                "type": "negation"
+            }
+        ],
+        "relations": [
+            {
+                "type": "has_result",
+                "subject": "self-report_questionnaires_32912329_7",
+                "object": "anxiety_32912329_7"
+            },
+            {
+                "type": "has_result",
+                "subject": "self-report_questionnaires_32912329_7",
+                "object": "depression_32912329_7"
+            },
+            {
+                "type": "has_result",
+                "subject": "self-report_questionnaires_32912329_7",
+                "object": "post-traumatic_stress_disorder_32912329_7"
+            },
+            {
+                "type": "negates",
+                "subject": "did_not_have_signs_32912329_7",
+                "object": "anxiety_32912329_7"
+            },
+            {
+                "type": "negates",
+                "subject": "did_not_have_signs_32912329_7",
+                "object": "depression_32912329_7"
+            },
+            {
+                "type": "negates",
+                "subject": "did_not_have_signs_32912329_7",
+                "object": "post-traumatic_stress_disorder_32912329_7"
+            }
+        ],
+        "sent_id": "32912329_7",
+        "text": "She did not have signs of anxiety, depression, or post-traumatic stress disorder through self-report questionnaires."
+    },
+    {
+        "entities": [
+            {
+                "id": "she_31092289_1",
+                "text": "she",
+                "type": "person"
+            },
+            {
+                "id": "diffuse_hypokinetic_cardiac_motion_31092289_1",
+                "text": "diffuse hypokinetic cardiac motion",
+                "type": "condition"
+            },
+            {
+                "id": "tachycardia_31092289_1",
+                "text": "tachycardia",
+                "type": "condition"
+            },
+            {
+                "id": "atrial_fibrillation_31092289_1",
+                "text": "atrial fibrillation",
+                "type": "condition"
+            },
+            {
+                "id": "hypotension_31092289_1",
+                "text": "marked  hypotension",
+                "type": "condition"
+            },
+            {
+                "id": "coma_31092289_1",
+                "text": "coma",
+                "type": "condition"
+            },
+            {
+                "id": "On_arrival_31092289_1",
+                "text": "On arrival",
+                "type": "event"
+            }
+        ],
+        "relations": [
+            {
+                "type": "exhibits",
+                "subject": "she_31092289_1",
+                "object": "diffuse_hypokinetic_cardiac_motion_31092289_1"
+            },
+            {
+                "type": "exhibits",
+                "subject": "she_31092289_1",
+                "object": "tachycardia_31092289_1"
+            },
+            {
+                "type": "causes",
+                "subject": "atrial_fibrillation_31092289_1",
+                "object": "hypotension_31092289_1"
+            },
+            {
+                "type": "exhibits",
+                "subject": "she_31092289_1",
+                "object": "hypotension_31092289_1"
+            },
+            {
+                "type": "exhibits",
+                "subject": "she_31092289_1",
+                "object": "coma_31092289_1"
+            },
+            {
+                "type": "temporally_related_to",
+                "subject": "coma_31092289_1",
+                "object": "On_arrival_31092289_1"
+            },
+            {
+                "type": "temporally_related_to",
+                "subject": "hypotension_31092289_1",
+                "object": "On_arrival_31092289_1"
+            },
+            {
+                "type": "temporally_related_to",
+                "subject": "tachycardia_31092289_1",
+                "object": "On_arrival_31092289_1"
+            },
+            {
+                "type": "temporally_related_to",
+                "subject": "diffuse_hypokinetic_cardiac_motion_31092289_1",
+                "object": "On_arrival_31092289_1"
+            }
+        ],
+        "sent_id": "31092289_1",
+        "text": "On arrival, she was in a deep coma with marked hypotension induced by atrial fibrillation, tachycardia, and diffuse hypokinetic cardiac motion."
+    },
+    {
+        "entities": [
+            {
+                "id": "patient_33941242_5",
+                "text": "patient",
+                "type": "person"
+            },
+            {
+                "id": "controlled_the_condition_without_recurrence_33941242_5",
+                "text": "controlled the condition without recurrence",
+                "type": "event"
+            },
+            {
+                "id": "chronic_steroid-sparing_immunosuppression_33941242_5",
+                "text": "chronic steroid-sparing immunosuppression",
+                "type": "treatment"
+            }
+        ],
+        "relations": [
+            {
+                "type": "carries_out",
+                "subject": "patient_33941242_5",
+                "object": "controlled_the_condition_without_recurrence_33941242_5"
+            },
+            {
+                "type": "treated_by",
+                "subject": "patient_33941242_5",
+                "object": "chronic_steroid-sparing_immunosuppression_33941242_5"
+            },
+            {
+                "type": "causes",
+                "subject": "chronic_steroid-sparing_immunosuppression_33941242_5",
+                "object": "controlled_the_condition_without_recurrence_33941242_5"
+            }
+        ],
+        "sent_id": "33941242_5",
+        "text": "The patient was then started on chronic steroid-sparing immunosuppression, which has controlled the condition without recurrence."
+    },
+    {
+        "entities": [
+            {
+                "id": "He_34325742_1",
+                "text": "He",
+                "type": "person"
+            }
+        ],
+        "relations": [
+            {
+                "type": "exhibits",
+                "subject": "He_34325742_1",
+                "object": "He_34325742_1"
+            },
+            {
+                "type": "exhibits",
+                "subject": "He_34325742_1",
+                "object": "He_34325742_1"
+            },
+            {
+                "type": "exhibits",
+                "subject": "He_34325742_1",
+                "object": "He_34325742_1"
+            }
+        ],
+        "sent_id": "34325742_1",
+        "text": "He presented with severe nausea, vomiting, and altered level of consciousness."
+    },
+    {
+        "entities": [
+            {
+                "id": "computed_tomography_34535187_3",
+                "text": "computed tomography",
+                "type": "test"
+            },
+            {
+                "id": "accumulation_of_fluid_around_the_pancreas_34535187_3",
+                "text": "accumulation of fluid around the pancreas",
+                "type": "condition"
+            },
+            {
+                "id": "gastric_penetration_of_pancreatic_cyst_34535187_3",
+                "text": "gastric penetration of pancreatic cyst",
+                "type": "condition"
+            }
+        ],
+        "relations": [
+            {
+                "type": "has_result",
+                "subject": "computed_tomography_34535187_3",
+                "object": "accumulation_of_fluid_around_the_pancreas_34535187_3"
+            },
+            {
+                "type": "has_result",
+                "subject": "computed_tomography_34535187_3",
+                "object": "gastric_penetration_of_pancreatic_cyst_34535187_3"
+            }
+        ],
+        "sent_id": "34535187_3",
+        "text": "The computed tomography revealed accumulation of fluid around the pancreas and gastric penetration of pancreatic cyst."
+    },
+    {
+        "entities": [
+            {
+                "id": "He_34325742_2",
+                "text": "He",
+                "type": "person"
+            },
+            {
+                "id": "electrocardiogram_changes_34325742_2",
+                "text": "electrocardiogram changes",
+                "type": "symptom"
+            },
+            {
+                "id": "hypoxia_34325742_2",
+                "text": "hypoxia",
+                "type": "symptom"
+            },
+            {
+                "id": "lactic_acidosis_34325742_2",
+                "text": "lactic acidosis",
+                "type": "symptom"
+            }
+        ],
+        "relations": [
+            {
+                "type": "exhibits",
+                "subject": "He_34325742_2",
+                "object": "electrocardiogram_changes_34325742_2"
+            },
+            {
+                "type": "exhibits",
+                "subject": "He_34325742_2",
+                "object": "hypoxia_34325742_2"
+            },
+            {
+                "type": "exhibits",
+                "subject": "He_34325742_2",
+                "object": "lactic_acidosis_34325742_2"
+            }
+        ],
+        "sent_id": "34325742_2",
+        "text": "He had electrocardiogram changes, hypoxia, and lactic acidosis."
+    },
+    {
+        "entities": [
+            {
+                "id": "thyroid_function_34686220_14",
+                "text": "thyroid function",
+                "type": "entity"
+            },
+            {
+                "id": "significant_improvement_34686220_14",
+                "text": "significant improvement",
+                "type": "event"
+            },
+            {
+                "id": "2_weeks_34686220_14",
+                "text": "after 2 weeks ",
+                "type": "time"
+            },
+            {
+                "id": "her_34686220_14",
+                "text": "her",
+                "type": "person"
+            },
+            {
+                "id": "2_weeks_of_treatment_34686220_14",
+                "text": "treatment",
+                "type": "treatment"
+            }
+        ],
+        "relations": [
+            {
+                "type": "carries_out",
+                "subject": "thyroid_function_34686220_14",
+                "object": "significant_improvement_34686220_14"
+            },
+            {
+                "type": "temporally_related_to",
+                "subject": "significant_improvement_34686220_14",
+                "object": "2_weeks_34686220_14"
+            },
+            {
+                "type": "treated_by",
+                "subject": "her_34686220_14",
+                "object": "2_weeks_of_treatment_34686220_14"
+            }
+        ],
+        "sent_id": "34686220_14",
+        "text": "Her thyroid function after 2\\xa0weeks of treatment showed significant improvement."
+    },
+    {
+        "entities": [
+            {
+                "id": "patient_33461603_3",
+                "text": "patient",
+                "type": "person"
+            },
+            {
+                "id": "microsurgical_complete_resection_of_the_parietal_mass_33461603_3",
+                "text": "microsurgical complete resection of the parietal mass",
+                "type": "procedure"
+            },
+            {
+                "id": "further_radiotherapy_33461603_3",
+                "text": "further radiotherapy",
+                "type": "treatment"
+            }
+        ],
+        "relations": [
+            {
+                "type": "treated_by",
+                "subject": "patient_33461603_3",
+                "object": "microsurgical_complete_resection_of_the_parietal_mass_33461603_3"
+            },
+            {
+                "type": "treated_by",
+                "subject": "patient_33461603_3",
+                "object": "further_radiotherapy_33461603_3"
+            }
+        ],
+        "sent_id": "33461603_3",
+        "text": "The patient underwent microsurgical complete resection of the parietal mass and was subsequently subjected to further radiotherapy."
+    },
+    {
+        "entities": [
+            {
+                "id": "Patient_A_35094715_7",
+                "text": "Patient A",
+                "type": "patient"
+            },
+            {
+                "id": "dermatomyositis_35094715_7",
+                "text": "dermatomyositis",
+                "type": "disease"
+            },
+            {
+                "id": "Patient_B_35094715_7",
+                "text": "Patient B",
+                "type": "patient"
+            },
+            {
+                "id": "inflammatory_myositis_35094715_7",
+                "text": "inflammatory myositis",
+                "type": "disease"
+            }
+        ],
+        "relations": [
+            {
+                "type": "diagnoses",
+                "subject": "Patient_A_35094715_7",
+                "object": "dermatomyositis_35094715_7"
+            },
+            {
+                "type": "diagnoses",
+                "subject": "Patient_B_35094715_7",
+                "object": "inflammatory_myositis_35094715_7"
+            }
+        ],
+        "sent_id": "35094715_7",
+        "text": "Patients A and B were diagnosed with dermatomyositis and inflammatory myositis, respectively."
+    },
+    {
+        "entities": [
+            {
+                "id": "patient_33593409_2",
+                "text": "patient",
+                "type": "person"
+            },
+            {
+                "id": "cardiopulmonary_resuscitation_33593409_2",
+                "text": "immediate cardiopulmonary resuscitation",
+                "type": "treatment"
+            },
+            {
+                "id": "revived_33593409_2",
+                "text": "revived",
+                "type": "event"
+            },
+            {
+                "id": "sound_recovery_33593409_2",
+                "text": "sound recovery",
+                "type": "condition"
+            },
+            {
+                "id": "time_33593409_2",
+                "text": "time following",
+                "type": "time"
+            }
+        ],
+        "relations": [
+            {
+                "type": "treated_by",
+                "subject": "patient_33593409_2",
+                "object": "cardiopulmonary_resuscitation_33593409_2"
+            },
+            {
+                "type": "carries_out",
+                "subject": "patient_33593409_2",
+                "object": "revived_33593409_2"
+            },
+            {
+                "type": "carries_out",
+                "subject": "patient_33593409_2",
+                "object": "sound_recovery_33593409_2"
+            },
+            {
+                "type": "temporally_related_to",
+                "subject": "cardiopulmonary_resuscitation_33593409_2",
+                "object": "time_33593409_2"
+            },
+            {
+                "type": "causes",
+                "subject": "cardiopulmonary_resuscitation_33593409_2",
+                "object": "revived_33593409_2"
+            },
+            {
+                "type": "causes",
+                "subject": "cardiopulmonary_resuscitation_33593409_2",
+                "object": "sound_recovery_33593409_2"
+            }
+        ],
+        "sent_id": "33593409_2",
+        "text": "However, prompt detection and immediate cardiopulmonary resuscitation revived the patient in time following which sound recovery ensued."
+    },
+    {
+        "entities": [
+            {
+                "id": "brain_magnetic_resonance_imaging_36002893_3",
+                "text": "brain magnetic resonance imaging",
+                "type": "test"
+            },
+            {
+                "id": "diagnosis_36002893_3",
+                "text": "diagnosis",
+                "type": "condition"
+            },
+            {
+                "id": "metabolic_tests_36002893_3",
+                "text": "metabolic tests",
+                "type": "test"
+            },
+            {
+                "id": "genetic_mutations_36002893_3",
+                "text": "genetic mutations",
+                "type": "test"
+            }
+        ],
+        "relations": [
+            {
+                "type": "indicates",
+                "subject": "brain_magnetic_resonance_imaging_36002893_3",
+                "object": "diagnosis_36002893_3"
+            },
+            {
+                "type": "indicates",
+                "subject": "metabolic_tests_36002893_3",
+                "object": "diagnosis_36002893_3"
+            },
+            {
+                "type": "indicates",
+                "subject": "genetic_mutations_36002893_3",
+                "object": "diagnosis_36002893_3"
+            }
+        ],
+        "sent_id": "36002893_3",
+        "text": "Brain magnetic resonance imaging, metabolic tests, and genetic mutations confirmed the diagnosis."
+    },
+    {
+        "entities": [
+            {
+                "id": "perioperative_misplacement_of_the_stent_32950051_1",
+                "text": "perioperative misplacement of the stent in the left ovarian vein",
+                "type": "event"
+            },
+            {
+                "id": "intracardiac_presence_of_single-J_stent_32950051_1",
+                "text": "intracardiac presence of single-J stent",
+                "type": "condition"
+            },
+            {
+                "id": "left_ovarian_vein_32950051_1",
+                "text": "left ovarian vein",
+                "type": "body_part"
+            }
+        ],
+        "relations": [
+            {
+                "type": "causes",
+                "subject": "perioperative_misplacement_of_the_stent_32950051_1",
+                "object": "intracardiac_presence_of_single-J_stent_32950051_1"
+            },
+            {
+                "type": "has_location",
+                "subject": "perioperative_misplacement_of_the_stent_32950051_1",
+                "object": "left_ovarian_vein_32950051_1"
+            }
+        ],
+        "sent_id": "32950051_1",
+        "text": "The intracardiac presence of single-J stent was probably due to a perioperative misplacement of the stent in the left ovarian vein."
+    },
+    {
+        "entities": [
+            {
+                "id": "patient_35637536_0",
+                "text": " A 67-year-old Sri Lankan patient",
+                "type": "person"
+            },
+            {
+                "id": "diabetes_35637536_0",
+                "text": "diabetes",
+                "type": "disease"
+            },
+            {
+                "id": "hypertension_35637536_0",
+                "text": "hypertension",
+                "type": "disease"
+            },
+            {
+                "id": "ischemic_heart_disease_35637536_0",
+                "text": "ischemic heart disease",
+                "type": "disease"
+            },
+            {
+                "id": "acute_coronary_event_35637536_0",
+                "text": "acute coronary event",
+                "type": "disease"
+            }
+        ],
+        "relations": [
+            {
+                "type": "affected_by",
+                "subject": "patient_35637536_0",
+                "object": "diabetes_35637536_0"
+            },
+            {
+                "type": "affected_by",
+                "subject": "patient_35637536_0",
+                "object": "hypertension_35637536_0"
+            },
+            {
+                "type": "affected_by",
+                "subject": "patient_35637536_0",
+                "object": "ischemic_heart_disease_35637536_0"
+            },
+            {
+                "type": "exhibits",
+                "subject": "patient_35637536_0",
+                "object": "acute_coronary_event_35637536_0"
+            }
+        ],
+        "sent_id": "35637536_0",
+        "text": " A 67-year-old Sri Lankan patient with diabetes, hypertension, and ischemic heart disease presented with an acute coronary event."
+    },
+    {
+        "entities": [
+            {
+                "id": "computed_tomography_33050943_8",
+                "text": "computed tomography",
+                "type": "test"
+            },
+            {
+                "id": "1419\u2009cm_3_33050943_8",
+                "text": "1419\\u2009cm 3",
+                "type": "value"
+            },
+            {
+                "id": "1587\u2009cm_3_33050943_8",
+                "text": "1587\\u2009cm 3",
+                "type": "value"
+            },
+            {
+                "id": "liver_33050943_8",
+                "text": "liver",
+                "type": "body_part"
+            },
+            {
+                "id": "increased_event_33050943_8",
+                "text": "increased",
+                "type": "event"
+            },
+            {
+                "id": "During_that_time_33050943_8",
+                "text": "During that time",
+                "type": "time"
+            }
+        ],
+        "relations": [
+            {
+                "type": "has_result",
+                "subject": "computed_tomography_33050943_8",
+                "object": "1419\u2009cm_3_33050943_8"
+            },
+            {
+                "type": "has_result",
+                "subject": "computed_tomography_33050943_8",
+                "object": "1587\u2009cm_3_33050943_8"
+            },
+            {
+                "type": "carries_out",
+                "subject": "liver_33050943_8",
+                "object": "increased_event_33050943_8"
+            },
+            {
+                "type": "temporally_related_to",
+                "subject": "increased_event_33050943_8",
+                "object": "During_that_time_33050943_8"
+            }
+        ],
+        "sent_id": "33050943_8",
+        "text": "During that time, the size of his liver increased from 1419\\u2009cm 3  to 1587\\u2009cm 3  on computed tomography."
+    },
+    {
+        "entities": [
+            {
+                "id": "patient_36258221_3",
+                "text": "patient",
+                "type": "person"
+            },
+            {
+                "id": "corticosteroids_36258221_3",
+                "text": "corticosteroids",
+                "type": "medication"
+            },
+            {
+                "id": "primary_acquired_pure_red_cell_aplasia_36258221_3",
+                "text": "primary acquired pure red cell aplasia",
+                "type": "disease"
+            },
+            {
+                "id": "good_response_36258221_3",
+                "text": "good response",
+                "type": "event"
+            }
+        ],
+        "relations": [
+            {
+                "type": "treated_by",
+                "subject": "patient_36258221_3",
+                "object": "corticosteroids_36258221_3"
+            },
+            {
+                "type": "affected_by",
+                "subject": "patient_36258221_3",
+                "object": "primary_acquired_pure_red_cell_aplasia_36258221_3"
+            },
+            {
+                "type": "treated_by",
+                "subject": "primary_acquired_pure_red_cell_aplasia_36258221_3",
+                "object": "corticosteroids_36258221_3"
+            },
+            {
+                "type": "causes",
+                "subject": "corticosteroids_36258221_3",
+                "object": "good_response_36258221_3"
+            }
+        ],
+        "sent_id": "36258221_3",
+        "text": "The patient received corticosteroids as the standard treatment of primary acquired pure red cell aplasia, and he had a good response to treatment."
+    },
+    {
+        "entities": [
+            {
+                "id": "patient_33099313_3",
+                "text": "patient",
+                "type": "person"
+            },
+            {
+                "id": "excellent_quality_of_life_33099313_3",
+                "text": "excellent quality of life",
+                "type": "condition"
+            },
+            {
+                "id": "complete_remission_33099313_3",
+                "text": "complete remission",
+                "type": "condition"
+            },
+            {
+                "id": "Over_three_years_s_33099313_3",
+                "text": "Over three years after the initial diagnosis",
+                "type": "time"
+            }
+        ],
+        "relations": [
+            {
+                "type": "exhibits",
+                "subject": "patient_33099313_3",
+                "object": "excellent_quality_of_life_33099313_3"
+            },
+            {
+                "type": "exhibits",
+                "subject": "patient_33099313_3",
+                "object": "complete_remission_33099313_3"
+            },
+            {
+                "type": "temporally_related_to",
+                "subject": "excellent_quality_of_life_33099313_3",
+                "object": "Over_three_years_s_33099313_3"
+            },
+            {
+                "type": "temporally_related_to",
+                "subject": "complete_remission_33099313_3",
+                "object": "Over_three_years_s_33099313_3"
+            }
+        ],
+        "sent_id": "33099313_3",
+        "text": "Over three years after the initial diagnosis, the patient is reportedly showing an excellent quality of life and a complete remission."
+    },
+    {
+        "entities": [
+            {
+                "id": "patient_35418307_4",
+                "text": "patient",
+                "type": "person"
+            },
+            {
+                "id": "discharge_35418307_4",
+                "text": "discharged",
+                "type": "event"
+            },
+            {
+                "id": "radiograph_35418307_4",
+                "text": "final radiograph",
+                "type": "test"
+            },
+            {
+                "id": "foreign_body_35418307_4",
+                "text": "foreign body",
+                "type": "entity"
+            },
+            {
+                "id": "absence_35418307_4",
+                "text": "absence",
+                "type": "negation"
+            }
+        ],
+        "relations": [
+            {
+                "type": "carries_out",
+                "subject": "patient_35418307_4",
+                "object": "discharge_35418307_4"
+            },
+            {
+                "type": "has_result",
+                "subject": "radiograph_35418307_4",
+                "object": "foreign_body_35418307_4"
+            },
+            {
+                "type": "negates",
+                "subject": "absence_35418307_4",
+                "object": "foreign_body_35418307_4"
+            }
+        ],
+        "sent_id": "35418307_4",
+        "text": "The patient was discharged after a final radiograph confirmed the absence of the foreign body."
+    },
+    {
+        "entities": [
+            {
+                "id": "DUMMY_34953487_3",
+                "text": "DUMMY",
+                "type": "person"
+            },
+            {
+                "id": "thyroid_dysfunction_34953487_3",
+                "text": "thyroid dysfunction",
+                "type": "desease"
+            },
+            {
+                "id": "cardiac_dysfunction_34953487_3",
+                "text": "cardiac dysfunction",
+                "type": "desease"
+            },
+            {
+                "id": "cancers_34953487_3",
+                "text": "cancers",
+                "type": "desease"
+            },
+            {
+                "id": "infectious_diseases_34953487_3",
+                "text": "infectious diseases",
+                "type": "desease"
+            },
+            {
+                "id": "hepatitis_34953487_3",
+                "text": "hepatitis",
+                "type": "desease"
+            },
+            {
+                "id": "kidney_diseases_34953487_3",
+                "text": "kidney diseases",
+                "type": "desease"
+            },
+            {
+                "id": "other_diseases_34953487_3",
+                "text": "other diseases",
+                "type": "desease"
+            },
+            {
+                "id": "no_signs_34953487_3",
+                "text": "no signs",
+                "type": "negation"
+            }
+        ],
+        "relations": [
+            {
+                "type": "affected_by",
+                "subject": "DUMMY_34953487_3",
+                "object": "thyroid_dysfunction_34953487_3"
+            },
+            {
+                "type": "affected_by",
+                "subject": "DUMMY_34953487_3",
+                "object": "cardiac_dysfunction_34953487_3"
+            },
+            {
+                "type": "affected_by",
+                "subject": "DUMMY_34953487_3",
+                "object": "cancers_34953487_3"
+            },
+            {
+                "type": "affected_by",
+                "subject": "DUMMY_34953487_3",
+                "object": "infectious_diseases_34953487_3"
+            },
+            {
+                "type": "affected_by",
+                "subject": "DUMMY_34953487_3",
+                "object": "hepatitis_34953487_3"
+            },
+            {
+                "type": "affected_by",
+                "subject": "DUMMY_34953487_3",
+                "object": "kidney_diseases_34953487_3"
+            },
+            {
+                "type": "affected_by",
+                "subject": "DUMMY_34953487_3",
+                "object": "other_diseases_34953487_3"
+            },
+            {
+                "type": "negates",
+                "subject": "no_signs_34953487_3",
+                "object": "thyroid_dysfunction_34953487_3"
+            },
+            {
+                "type": "negates",
+                "subject": "no_signs_34953487_3",
+                "object": "cardiac_dysfunction_34953487_3"
+            },
+            {
+                "type": "negates",
+                "subject": "no_signs_34953487_3",
+                "object": "cancers_34953487_3"
+            },
+            {
+                "type": "negates",
+                "subject": "no_signs_34953487_3",
+                "object": "infectious_diseases_34953487_3"
+            },
+            {
+                "type": "negates",
+                "subject": "no_signs_34953487_3",
+                "object": "hepatitis_34953487_3"
+            },
+            {
+                "type": "negates",
+                "subject": "no_signs_34953487_3",
+                "object": "kidney_diseases_34953487_3"
+            },
+            {
+                "type": "negates",
+                "subject": "no_signs_34953487_3",
+                "object": "other_diseases_34953487_3"
+            }
+        ],
+        "sent_id": "34953487_3",
+        "text": "There were no signs of thyroid dysfunction, cardiac dysfunction, cancers, infectious diseases, hepatitis, kidney diseases, or other diseases."
+    },
+    {
+        "entities": [
+            {
+                "id": "atypical_cells_33158457_4",
+                "text": "atypical cells",
+                "type": "body_part"
+            },
+            {
+                "id": "adenocarcinoma_33158457_4",
+                "text": "adenocarcinoma",
+                "type": "disease"
+            },
+            {
+                "id": "tumor_cells_33158457_4",
+                "text": "tumor cells",
+                "type": "body_part"
+            },
+            {
+                "id": "cytological_examination_33158457_4",
+                "text": "cytological examination of the pericardial ",
+                "type": "test"
+            }
+        ],
+        "relations": [
+            {
+                "type": "indicates",
+                "subject": "atypical_cells_33158457_4",
+                "object": "adenocarcinoma_33158457_4"
+            },
+            {
+                "type": "indicates",
+                "subject": "tumor_cells_33158457_4",
+                "object": "adenocarcinoma_33158457_4"
+            },
+            {
+                "type": "has_result",
+                "subject": "cytological_examination_33158457_4",
+                "object": "tumor_cells_33158457_4"
+            },
+            {
+                "type": "has_result",
+                "subject": "cytological_examination_33158457_4",
+                "object": "atypical_cells_33158457_4"
+            }
+        ],
+        "sent_id": "33158457_4",
+        "text": "Cytological examination of the pericardial fluid revealed atypical cells and tumor cells suggesting adenocarcinoma."
+    },
+    {
+        "entities": [
+            {
+                "id": "DUMMY_31311582_4",
+                "text": "DUMMY",
+                "type": "person"
+            },
+            {
+                "id": "aortic_valve_closure_31311582_4",
+                "text": "aortic valve closure",
+                "type": "treatment"
+            },
+            {
+                "id": "transfemoral_retrograde_implantation_31311582_4",
+                "text": "transfemoral retrograde implantation  of an Amplatzer Duct Occluder II device",
+                "type": "procedure"
+            },
+            {
+                "id": "bailout_strategy_31311582_4",
+                "text": "bailout strategy",
+                "type": "plan"
+            }
+        ],
+        "relations": [
+            {
+                "type": "treated_by",
+                "subject": "DUMMY_31311582_4",
+                "object": "aortic_valve_closure_31311582_4"
+            },
+            {
+                "type": "treated_by",
+                "subject": "DUMMY_31311582_4",
+                "object": "transfemoral_retrograde_implantation_31311582_4"
+            },
+            {
+                "type": "consists_of",
+                "subject": "aortic_valve_closure_31311582_4",
+                "object": "transfemoral_retrograde_implantation_31311582_4"
+            },
+            {
+                "type": "sameAs",
+                "subject": "bailout_strategy_31311582_4",
+                "object": "aortic_valve_closure_31311582_4"
+            }
+        ],
+        "sent_id": "31311582_4",
+        "text": "As a bailout strategy, we performed aortic valve closure via transfemoral retrograde implantation of an Amplatzer Duct Occluder II device."
+    },
+    {
+        "entities": [
+            {
+                "id": "baby_34465376_2",
+                "text": "baby",
+                "type": "person"
+            },
+            {
+                "id": "grunting_34465376_2",
+                "text": "grunting",
+                "type": "symptom"
+            },
+            {
+                "id": "poor_feeding_34465376_2",
+                "text": "poor feeding",
+                "type": "symptom"
+            },
+            {
+                "id": "symptomatic_hypoglycemia_34465376_2",
+                "text": "symptomatic hypoglycemia",
+                "type": "symptom"
+            },
+            {
+                "id": "convulsions_34465376_2",
+                "text": "convulsions with multiple semiology",
+                "type": "symptom"
+            },
+            {
+                "id": "Since_birth_34465376_2",
+                "text": "Since birth",
+                "type": "Since birth"
+            }
+        ],
+        "relations": [
+            {
+                "type": "exhibits",
+                "subject": "baby_34465376_2",
+                "object": "grunting_34465376_2"
+            },
+            {
+                "type": "exhibits",
+                "subject": "baby_34465376_2",
+                "object": "poor_feeding_34465376_2"
+            },
+            {
+                "type": "exhibits",
+                "subject": "baby_34465376_2",
+                "object": "symptomatic_hypoglycemia_34465376_2"
+            },
+            {
+                "type": "exhibits",
+                "subject": "baby_34465376_2",
+                "object": "convulsions_34465376_2"
+            },
+            {
+                "type": "temporally_related_to",
+                "subject": "grunting_34465376_2",
+                "object": "Since_birth_34465376_2"
+            },
+            {
+                "type": "temporally_related_to",
+                "subject": "poor_feeding_34465376_2",
+                "object": "Since_birth_34465376_2"
+            },
+            {
+                "type": "temporally_related_to",
+                "subject": "symptomatic_hypoglycemia_34465376_2",
+                "object": "Since_birth_34465376_2"
+            },
+            {
+                "type": "temporally_related_to",
+                "subject": "convulsions_34465376_2",
+                "object": "Since_birth_34465376_2"
+            }
+        ],
+        "sent_id": "34465376_2",
+        "text": "Since birth, the baby developed grunting, poor feeding, and recurrent episodes of symptomatic hypoglycemia and convulsions with multiple semiology."
+    },
+    {
+        "entities": [
+            {
+                "id": "She_35012656_3",
+                "text": "She",
+                "type": "person"
+            },
+            {
+                "id": "acquired_long_QT_syndrome_35012656_3",
+                "text": "acquired long QT syndrome",
+                "type": "disease"
+            },
+            {
+                "id": "QT_interval_35012656_3",
+                "text": "QT interval",
+                "type": "entity"
+            },
+            {
+                "id": "normalized_35012656_3",
+                "text": "normalized",
+                "type": "event"
+            },
+            {
+                "id": "offending_causes_35012656_3",
+                "text": "removal of offending causes",
+                "type": "condition"
+            }
+        ],
+        "relations": [
+            {
+                "type": "diagnoses",
+                "subject": "She_35012656_3",
+                "object": "acquired_long_QT_syndrome_35012656_3"
+            },
+            {
+                "type": "carries_out",
+                "subject": "QT_interval_35012656_3",
+                "object": "normalized_35012656_3"
+            },
+            {
+                "type": "causes",
+                "subject": "offending_causes_35012656_3",
+                "object": "normalized_35012656_3"
+            }
+        ],
+        "sent_id": "35012656_3",
+        "text": "She was diagnosed with acquired long QT syndrome, and her QT interval later normalized after removal of offending causes."
+    },
+    {
+        "entities": [
+            {
+                "id": "1_33750439_0",
+                "text": "healthy 20-month-old Asian girl",
+                "type": "person"
+            },
+            {
+                "id": "2_33750439_0",
+                "text": "emergency department",
+                "type": "location"
+            },
+            {
+                "id": "vomiting_33750439_0",
+                "text": "vomiting",
+                "type": "symptom"
+            },
+            {
+                "id": "reduced_level_of_consciousness_33750439_0",
+                "text": "reduced level of consciousness",
+                "type": "symptom"
+            }
+        ],
+        "relations": [
+            {
+                "type": "has_location",
+                "subject": "1_33750439_0",
+                "object": "2_33750439_0"
+            },
+            {
+                "type": "exhibits",
+                "subject": "1_33750439_0",
+                "object": "vomiting_33750439_0"
+            },
+            {
+                "type": "exhibits",
+                "subject": "1_33750439_0",
+                "object": "reduced_level_of_consciousness_33750439_0"
+            }
+        ],
+        "sent_id": "33750439_0",
+        "text": " A healthy 20-month-old Asian girl presented to our emergency department with episodes of vomiting and a reduced level of consciousness."
+    },
+    {
+        "entities": [
+            {
+                "id": "Her_33131504_5",
+                "text": "Her",
+                "type": "person"
+            },
+            {
+                "id": "multiple_scars_33131504_5",
+                "text": "multiple scars",
+                "type": "symptom"
+            },
+            {
+                "id": "transverse_scar_33131504_5",
+                "text": "transverse scar",
+                "type": "symptom"
+            },
+            {
+                "id": "physical_examination_33131504_5",
+                "text": "physical examination",
+                "type": "test"
+            },
+            {
+                "id": "posterior_thoracic_region_33131504_5",
+                "text": "posterior thoracic region , levels T10-T12",
+                "type": "location"
+            },
+            {
+                "id": "right_hypochondrium_33131504_5",
+                "text": "right hypochondrium",
+                "type": "location"
+            }
+        ],
+        "relations": [
+            {
+                "type": "exhibits",
+                "subject": "Her_33131504_5",
+                "object": "multiple_scars_33131504_5"
+            },
+            {
+                "type": "exhibits",
+                "subject": "Her_33131504_5",
+                "object": "transverse_scar_33131504_5"
+            },
+            {
+                "type": "has_result",
+                "subject": "physical_examination_33131504_5",
+                "object": "multiple_scars_33131504_5"
+            },
+            {
+                "type": "has_result",
+                "subject": "physical_examination_33131504_5",
+                "object": "transverse_scar_33131504_5"
+            },
+            {
+                "type": "has_location",
+                "subject": "multiple_scars_33131504_5",
+                "object": "posterior_thoracic_region_33131504_5"
+            },
+            {
+                "type": "has_location",
+                "subject": "transverse_scar_33131504_5",
+                "object": "right_hypochondrium_33131504_5"
+            }
+        ],
+        "sent_id": "33131504_5",
+        "text": "Her physical examination revealed a transverse scar at the right hypochondrium and multiple scars at the posterior thoracic region, levels T10-T12."
+    },
+    {
+        "entities": [
+            {
+                "id": "she_35232458_11",
+                "text": "she",
+                "type": "person"
+            },
+            {
+                "id": "respiratory_distress_35232458_11",
+                "text": "slight respiratory distress",
+                "type": "symptom"
+            },
+            {
+                "id": "fluid_overload_35232458_11",
+                "text": "significant fluid overload",
+                "type": "symptom"
+            },
+            {
+                "id": "furosemide_35232458_11",
+                "text": "furosemide",
+                "type": "medication"
+            }
+        ],
+        "relations": [
+            {
+                "type": "produces",
+                "subject": "she_35232458_11",
+                "object": "respiratory_distress_35232458_11"
+            },
+            {
+                "type": "produces",
+                "subject": "she_35232458_11",
+                "object": "fluid_overload_35232458_11"
+            },
+            {
+                "type": "treated_by",
+                "subject": "fluid_overload_35232458_11",
+                "object": "furosemide_35232458_11"
+            }
+        ],
+        "sent_id": "35232458_11",
+        "text": "Shortly after delivery, she developed slight respiratory distress and significant fluid overload that was managed with furosemide."
+    },
+    {
+        "entities": [
+            {
+                "id": "she_37271824_1",
+                "text": "she",
+                "type": "person"
+            },
+            {
+                "id": "large_bowel_obstruction_37271824_1",
+                "text": "large bowel obstruction",
+                "type": "disease"
+            },
+            {
+                "id": "laparotomy_37271824_1",
+                "text": "emergency laparotomy",
+                "type": "treatment"
+            },
+            {
+                "id": "thoracic_epidural_sole_anesthesia_37271824_1",
+                "text": "thoracic epidural sole anesthesia",
+                "type": "treatment"
+            }
+        ],
+        "relations": [
+            {
+                "type": "diagnoses",
+                "subject": "she_37271824_1",
+                "object": "large_bowel_obstruction_37271824_1"
+            },
+            {
+                "type": "treated_by",
+                "subject": "she_37271824_1",
+                "object": "laparotomy_37271824_1"
+            },
+            {
+                "type": "treated_by",
+                "subject": "laparotomy_37271824_1",
+                "object": "thoracic_epidural_sole_anesthesia_37271824_1"
+            }
+        ],
+        "sent_id": "37271824_1",
+        "text": "Later, she was diagnosed with large bowel obstruction and underwent an emergency laparotomy, managed with a thoracic epidural sole anesthesia."
+    },
+    {
+        "entities": [
+            {
+                "id": "She_36435796_1",
+                "text": "She",
+                "type": "person"
+            },
+            {
+                "id": "periumbilical_pain_36435796_1",
+                "text": "periumbilical pain",
+                "type": "symptom"
+            },
+            {
+                "id": "nausea_36435796_1",
+                "text": "nausea",
+                "type": "symptom"
+            },
+            {
+                "id": "emesis_36435796_1",
+                "text": "emesis",
+                "type": "symptom"
+            }
+        ],
+        "relations": [
+            {
+                "type": "exhibits",
+                "subject": "She_36435796_1",
+                "object": "periumbilical_pain_36435796_1"
+            },
+            {
+                "type": "exhibits",
+                "subject": "She_36435796_1",
+                "object": "nausea_36435796_1"
+            },
+            {
+                "type": "exhibits",
+                "subject": "She_36435796_1",
+                "object": "emesis_36435796_1"
+            }
+        ],
+        "sent_id": "36435796_1",
+        "text": "She reported periumbilical pain associated with nausea and emesis."
+    },
+    {
+        "entities": [
+            {
+                "id": "mitotane_35725572_12",
+                "text": "mitotane",
+                "type": "medicine"
+            },
+            {
+                "id": "adrenal_suppression_35725572_12",
+                "text": "adrenal suppression",
+                "type": "treatment"
+            },
+            {
+                "id": "CYP_3A4_induction_35725572_12",
+                "text": "CYP 3A4 induction",
+                "type": "treatment"
+            },
+            {
+                "id": "DUMMY_35725572_12",
+                "text": "DUMMY",
+                "type": "person"
+            },
+            {
+                "id": "hydrocortisone_35725572_12",
+                "text": "hydrocortisone",
+                "type": "medicine"
+            },
+            {
+                "id": "High-dose_35725572_12",
+                "text": "High-dose ",
+                "type": "value"
+            }
+        ],
+        "relations": [
+            {
+                "type": "causes",
+                "subject": "mitotane_35725572_12",
+                "object": "adrenal_suppression_35725572_12"
+            },
+            {
+                "type": "causes",
+                "subject": "mitotane_35725572_12",
+                "object": "CYP_3A4_induction_35725572_12"
+            },
+            {
+                "type": "treated_by",
+                "subject": "DUMMY_35725572_12",
+                "object": "hydrocortisone_35725572_12"
+            },
+            {
+                "type": "measurement_of",
+                "subject": "High-dose_35725572_12",
+                "object": "hydrocortisone_35725572_12"
+            }
+        ],
+        "sent_id": "35725572_12",
+        "text": "High-dose hydrocortisone administration was needed because of adrenal suppression and CYP 3A4 induction by mitotane."
+    },
+    {
+        "entities": [
+            {
+                "id": "Immunohistochemistry_35177124_4",
+                "text": "Immunohistochemistry",
+                "type": "test"
+            },
+            {
+                "id": "estrogen_and_progesterone_receptors_35177124_4",
+                "text": "positive for estrogen and progesterone receptors",
+                "type": "condition"
+            }
+        ],
+        "relations": [
+            {
+                "type": "has_result",
+                "subject": "Immunohistochemistry_35177124_4",
+                "object": "estrogen_and_progesterone_receptors_35177124_4"
+            }
+        ],
+        "sent_id": "35177124_4",
+        "text": "Immunohistochemistry was done, which was positive for estrogen and progesterone receptors."
+    },
+    {
+        "entities": [
+            {
+                "id": "head_33504362_4",
+                "text": "head computed tomography",
+                "type": "test"
+            },
+            {
+                "id": "day_3_33504362_4",
+                "text": "day 3",
+                "type": "time"
+            },
+            {
+                "id": "magnetic_resonance_imaging_33504362_4",
+                "text": "magnetic resonance imaging",
+                "type": "test"
+            },
+            {
+                "id": "CT_33504362_4",
+                "text": "CT",
+                "type": "test"
+            },
+            {
+                "id": "MRI_33504362_4",
+                "text": "MRI",
+                "type": "test"
+            },
+            {
+                "id": "she_33504362_4",
+                "text": "she",
+                "type": "person"
+            },
+            {
+                "id": "unconscious_33504362_4",
+                "text": "unconscious_33504362_4",
+                "type": "condition"
+            },
+            {
+                "id": "were_performed_33504362_4",
+                "text": "were performed",
+                "type": "were performed"
+            }
+        ],
+        "relations": [
+            {
+                "type": "temporally_related_to",
+                "subject": "head_33504362_4",
+                "object": "day_3_33504362_4"
+            },
+            {
+                "type": "temporally_related_to",
+                "subject": "magnetic_resonance_imaging_33504362_4",
+                "object": "day_3_33504362_4"
+            },
+            {
+                "type": "sameAs",
+                "subject": "head_33504362_4",
+                "object": "CT_33504362_4"
+            },
+            {
+                "type": "sameAs",
+                "subject": "magnetic_resonance_imaging_33504362_4",
+                "object": "MRI_33504362_4"
+            },
+            {
+                "type": "exhibits",
+                "subject": "she_33504362_4",
+                "object": "unconscious_33504362_4"
+            },
+            {
+                "type": "carries_out",
+                "subject": "head_33504362_4",
+                "object": "were_performed_33504362_4"
+            },
+            {
+                "type": "carries_out",
+                "subject": "magnetic_resonance_imaging_33504362_4",
+                "object": "were_performed_33504362_4"
+            }
+        ],
+        "sent_id": "33504362_4",
+        "text": "A head computed tomography (CT) and magnetic resonance imaging (MRI) examination were performed on day 3, because she was still unconscious."
+    },
+    {
+        "entities": [
+            {
+                "id": "Cardiac_explorations_36997999_6",
+                "text": "Cardiac explorations",
+                "type": "procedure"
+            },
+            {
+                "id": "vegetation_36997999_6",
+                "text": "floating vegetation",
+                "type": "condition"
+            },
+            {
+                "id": "ventricle_36997999_6",
+                "text": "ventricle side of the aortic valve",
+                "type": "body_part"
+            }
+        ],
+        "relations": [
+            {
+                "type": "indicates",
+                "subject": "Cardiac_explorations_36997999_6",
+                "object": "vegetation_36997999_6"
+            },
+            {
+                "type": "has_location",
+                "subject": "vegetation_36997999_6",
+                "object": "ventricle_36997999_6"
+            }
+        ],
+        "sent_id": "36997999_6",
+        "text": "Cardiac explorations were performed and showed a floating vegetation on the ventricle side of the aortic valve."
+    },
+    {
+        "entities": [
+            {
+                "id": "she_35241158_2",
+                "text": "she",
+                "type": "person"
+            },
+            {
+                "id": "vancomycin_35241158_2",
+                "text": "vancomycin",
+                "type": "medication"
+            },
+            {
+                "id": "ceftriaxone_35241158_2",
+                "text": "ceftriaxone",
+                "type": "medication"
+            },
+            {
+                "id": "normal_saline_35241158_2",
+                "text": "normal saline",
+                "type": "medication"
+            },
+            {
+                "id": "emergency_department_35241158_2",
+                "text": "emergency department",
+                "type": "location"
+            },
+            {
+                "id": "30_cc_35241158_2",
+                "text": "30 cc/kg",
+                "type": "value"
+            },
+            {
+                "id": "broad-spectrum_antibiotics_35241158_2",
+                "text": "broad-spectrum antibiotics",
+                "type": "medication"
+            }
+        ],
+        "relations": [
+            {
+                "type": "treated_by",
+                "subject": "she_35241158_2",
+                "object": "vancomycin_35241158_2"
+            },
+            {
+                "type": "treated_by",
+                "subject": "she_35241158_2",
+                "object": "ceftriaxone_35241158_2"
+            },
+            {
+                "type": "treated_by",
+                "subject": "she_35241158_2",
+                "object": "normal_saline_35241158_2"
+            },
+            {
+                "type": "has_location",
+                "subject": "she_35241158_2",
+                "object": "emergency_department_35241158_2"
+            },
+            {
+                "type": "measurement_of",
+                "subject": "30_cc_35241158_2",
+                "object": "normal_saline_35241158_2"
+            },
+            {
+                "type": "treated_by",
+                "subject": "she_35241158_2",
+                "object": "broad-spectrum_antibiotics_35241158_2"
+            }
+        ],
+        "sent_id": "35241158_2",
+        "text": "While in the emergency department, she received broad-spectrum antibiotics (vancomycin and ceftriaxone) and 30\\xa0cc/kg bolus of normal saline."
+    },
+    {
+        "entities": [
+            {
+                "id": "patient_36357911_8",
+                "text": "patient",
+                "type": "person"
+            },
+            {
+                "id": "thrombotic_event_36357911_8",
+                "text": "thrombotic event",
+                "type": "event"
+            },
+            {
+                "id": "sequelae_36357911_8",
+                "text": "sequelae",
+                "type": "condition"
+            },
+            {
+                "id": "stenting_36357911_8",
+                "text": "stenting",
+                "type": "treatment"
+            },
+            {
+                "id": "anticoagulation_36357911_8",
+                "text": "discontinuation of anticoagulation",
+                "type": "treatment"
+            }
+        ],
+        "relations": [
+            {
+                "type": "exhibits",
+                "subject": "patient_36357911_8",
+                "object": "thrombotic_event_36357911_8"
+            },
+            {
+                "type": "exhibits",
+                "subject": "patient_36357911_8",
+                "object": "sequelae_36357911_8"
+            },
+            {
+                "type": "treated_by",
+                "subject": "patient_36357911_8",
+                "object": "stenting_36357911_8"
+            },
+            {
+                "type": "temporally_related_to",
+                "subject": "thrombotic_event_36357911_8",
+                "object": "anticoagulation_36357911_8"
+            }
+        ],
+        "sent_id": "36357911_8",
+        "text": "Despite stenting, the patient had another thrombotic event with associated sequelae after discontinuation of anticoagulation."
+    },
+    {
+        "entities": [
+            {
+                "id": "she_31831041_4",
+                "text": "she",
+                "type": "person"
+            },
+            {
+                "id": "plasmapheresis_31831041_4",
+                "text": "plasmapheresis",
+                "type": "treatment"
+            },
+            {
+                "id": "total_thyroidectomy_31831041_4",
+                "text": "total thyroidectomy",
+                "type": "treatment"
+            }
+        ],
+        "relations": [
+            {
+                "type": "treated_by",
+                "subject": "she_31831041_4",
+                "object": "plasmapheresis_31831041_4"
+            },
+            {
+                "type": "treated_by",
+                "subject": "she_31831041_4",
+                "object": "total_thyroidectomy_31831041_4"
+            }
+        ],
+        "sent_id": "31831041_4",
+        "text": "She received multiple sessions of plasmapheresis and ultimately had a total thyroidectomy."
+    },
+    {
+        "entities": [
+            {
+                "id": "ophthalmologic_examination_35382864_2",
+                "text": "ophthalmologic examination for uveitis",
+                "type": "test"
+            },
+            {
+                "id": "negative_35382864_2",
+                "text": "negative",
+                "type": "value"
+            },
+            {
+                "id": "serologic_tests_35382864_2",
+                "text": "serologic tests for autoimmune diseases",
+                "type": "test"
+            }
+        ],
+        "relations": [
+            {
+                "type": "has_result",
+                "subject": "ophthalmologic_examination_35382864_2",
+                "object": "negative_35382864_2"
+            },
+            {
+                "type": "has_result",
+                "subject": "serologic_tests_35382864_2",
+                "object": "negative_35382864_2"
+            }
+        ],
+        "sent_id": "35382864_2",
+        "text": "Ophthalmologic examination for uveitis and serologic tests for autoimmune diseases were negative."
+    },
+    {
+        "entities": [
+            {
+                "id": "patient_36171586_0",
+                "text": "A previously healthy, 68-year-old, Caucasian male",
+                "type": "person"
+            },
+            {
+                "id": "progressive_fatigue_36171586_0",
+                "text": "progressive fatigue",
+                "type": "symptom"
+            },
+            {
+                "id": "dyspnea_36171586_0",
+                "text": "dyspnea",
+                "type": "symptom"
+            },
+            {
+                "id": "appetite_loss_36171586_0",
+                "text": "appetite loss",
+                "type": "symptom"
+            },
+            {
+                "id": "12_days_36171586_0",
+                "text": "12 days",
+                "type": "time"
+            }
+        ],
+        "relations": [
+            {
+                "type": "exhibits",
+                "subject": "patient_36171586_0",
+                "object": "progressive_fatigue_36171586_0"
+            },
+            {
+                "type": "exhibits",
+                "subject": "patient_36171586_0",
+                "object": "dyspnea_36171586_0"
+            },
+            {
+                "type": "exhibits",
+                "subject": "patient_36171586_0",
+                "object": "appetite_loss_36171586_0"
+            },
+            {
+                "type": "temporally_related_to",
+                "subject": "progressive_fatigue_36171586_0",
+                "object": "12_days_36171586_0"
+            },
+            {
+                "type": "temporally_related_to",
+                "subject": "dyspnea_36171586_0",
+                "object": "12_days_36171586_0"
+            },
+            {
+                "type": "temporally_related_to",
+                "subject": "appetite_loss_36171586_0",
+                "object": "12_days_36171586_0"
+            }
+        ],
+        "sent_id": "36171586_0",
+        "text": " A previously healthy, 68-year-old, Caucasian male presented with progressive fatigue, dyspnea, and appetite loss since 12\\xa0days."
+    },
+    {
+        "entities": [
+            {
+                "id": "She_36998062_1",
+                "text": "She",
+                "type": "person"
+            },
+            {
+                "id": "right-sided_weakness_36998062_1",
+                "text": "right-sided weakness",
+                "type": "symptom"
+            },
+            {
+                "id": "hemorrhagic_stroke_36998062_1",
+                "text": "hemorrhagic stroke",
+                "type": "disease"
+            },
+            {
+                "id": "left_lentiform_nucleus_36998062_1",
+                "text": "left lentiform nucleus",
+                "type": "body_part"
+            }
+        ],
+        "relations": [
+            {
+                "type": "exhibits",
+                "subject": "She_36998062_1",
+                "object": "right-sided_weakness_36998062_1"
+            },
+            {
+                "type": "causes",
+                "subject": "hemorrhagic_stroke_36998062_1",
+                "object": "right-sided_weakness_36998062_1"
+            },
+            {
+                "type": "has_location",
+                "subject": "hemorrhagic_stroke_36998062_1",
+                "object": "left_lentiform_nucleus_36998062_1"
+            }
+        ],
+        "sent_id": "36998062_1",
+        "text": "She presented with right-sided weakness secondary to a hemorrhagic stroke of the left lentiform nucleus."
+    },
+    {
+        "entities": [
+            {
+                "id": "speech_36471442_8",
+                "text": "speech",
+                "type": "condition"
+            },
+            {
+                "id": "improved_36471442_8",
+                "text": "improved",
+                "type": "event"
+            },
+            {
+                "id": "walking_36471442_8",
+                "text": "walking",
+                "type": "condition"
+            },
+            {
+                "id": "bone_marrow_aspiration_36471442_8",
+                "text": "bone marrow aspiration",
+                "type": "test"
+            },
+            {
+                "id": "total_remission_36471442_8",
+                "text": "total remission",
+                "type": "condition"
+            },
+            {
+                "id": "10_months_of_follow-up_36471442_8",
+                "text": "10 months of follow-up",
+                "type": "event"
+            }
+        ],
+        "relations": [
+            {
+                "type": "carries_out",
+                "subject": "speech_36471442_8",
+                "object": "improved_36471442_8"
+            },
+            {
+                "type": "carries_out",
+                "subject": "walking_36471442_8",
+                "object": "improved_36471442_8"
+            },
+            {
+                "type": "has_result",
+                "subject": "bone_marrow_aspiration_36471442_8",
+                "object": "total_remission_36471442_8"
+            },
+            {
+                "type": "temporally_related_to",
+                "subject": "speech_36471442_8",
+                "object": "10_months_of_follow-up_36471442_8"
+            },
+            {
+                "type": "temporally_related_to",
+                "subject": "walking_36471442_8",
+                "object": "10_months_of_follow-up_36471442_8"
+            }
+        ],
+        "sent_id": "36471442_8",
+        "text": "Her speech and walking improved after 10\\xa0months of follow-up, and bone marrow aspiration showed total remission."
+    },
+    {
+        "entities": [
+            {
+                "id": "persian_girl_33596986_0",
+                "text": "10.3-year-old Persian girl",
+                "type": "person"
+            },
+            {
+                "id": "clinic_33596986_0",
+                "text": "clinic",
+                "type": "location"
+            },
+            {
+                "id": "short_height_33596986_0",
+                "text": "short height",
+                "type": "attribute"
+            },
+            {
+                "id": "failure_to_thrive_33596986_0",
+                "text": "failure to thrive",
+                "type": "condition"
+            }
+        ],
+        "relations": [
+            {
+                "type": "has_location",
+                "subject": "persian_girl_33596986_0",
+                "object": "clinic_33596986_0"
+            },
+            {
+                "type": "exhibits",
+                "subject": "persian_girl_33596986_0",
+                "object": "short_height_33596986_0"
+            },
+            {
+                "type": "exhibits",
+                "subject": "persian_girl_33596986_0",
+                "object": "failure_to_thrive_33596986_0"
+            }
+        ],
+        "sent_id": "33596986_0",
+        "text": " A 10.3-year-old Persian girl was brought to our clinic by her parents, with the complaint of failure to thrive and short height."
+    },
+    {
+        "entities": [
+            {
+                "id": "she_35012656_1",
+                "text": "she",
+                "type": "person"
+            },
+            {
+                "id": "ondansetron_35012656_1",
+                "text": "ondansetron",
+                "type": "medication"
+            },
+            {
+                "id": "metoclopramide_35012656_1",
+                "text": "metoclopramide",
+                "type": "medication"
+            },
+            {
+                "id": "fluoxetine_35012656_1",
+                "text": "fluoxetine",
+                "type": "medication"
+            },
+            {
+                "id": "on_the_background_35012656_1",
+                "text": "on the background of chronic treatment with fluoxetine",
+                "type": "event"
+            }
+        ],
+        "relations": [
+            {
+                "type": "treated_by",
+                "subject": "she_35012656_1",
+                "object": "ondansetron_35012656_1"
+            },
+            {
+                "type": "treated_by",
+                "subject": "she_35012656_1",
+                "object": "metoclopramide_35012656_1"
+            },
+            {
+                "type": "treated_by",
+                "subject": "she_35012656_1",
+                "object": "fluoxetine_35012656_1"
+            },
+            {
+                "type": "temporally_related_to",
+                "subject": "ondansetron_35012656_1",
+                "object": "on_the_background_35012656_1"
+            },
+            {
+                "type": "temporally_related_to",
+                "subject": "metoclopramide_35012656_1",
+                "object": "on_the_background_35012656_1"
+            },
+            {
+                "type": "temporally_related_to",
+                "subject": "fluoxetine_35012656_1",
+                "object": "on_the_background_35012656_1"
+            }
+        ],
+        "sent_id": "35012656_1",
+        "text": "She subsequently received ondansetron and metoclopramide, on the background of chronic treatment with fluoxetine."
+    },
+    {
+        "entities": [
+            {
+                "id": "patient_33812372_0",
+                "text": "33-year-old Asian woman",
+                "type": "person"
+            },
+            {
+                "id": "institution_33812372_0",
+                "text": "institution",
+                "type": "location"
+            },
+            {
+                "id": "24_weeks33812372_0",
+                "text": "24 weeks of gestation",
+                "type": "time"
+            },
+            {
+                "id": "gestation_33812372_0",
+                "text": "gestation",
+                "type": "event"
+            },
+            {
+                "id": "suspected_33812372_0",
+                "text": "suspected fetal congenital heart disease",
+                "type": "disease"
+            }
+        ],
+        "relations": [
+            {
+                "type": "has_location",
+                "subject": "patient_33812372_0",
+                "object": "institution_33812372_0"
+            },
+            {
+                "type": "temporally_related_to",
+                "subject": "patient_33812372_0",
+                "object": "24_weeks33812372_0"
+            },
+            {
+                "type": "carries_out",
+                "subject": "patient_33812372_0",
+                "object": "gestation_33812372_0"
+            },
+            {
+                "type": "affected_by",
+                "subject": "patient_33812372_0",
+                "object": "suspected_33812372_0"
+            }
+        ],
+        "sent_id": "33812372_0",
+        "text": " A 33-year-old Asian woman visited our institution at 24\\xa0weeks of gestation because of suspected fetal congenital heart disease."
+    },
+    {
+        "entities": [
+            {
+                "id": "genetic_testing_35232468_1",
+                "text": "genetic testing",
+                "type": "test"
+            },
+            {
+                "id": "ACVRL1_35232468_1",
+                "text": "ACVRL1",
+                "type": "disease"
+            },
+            {
+                "id": "echocardiogram_35232468_1",
+                "text": "echocardiogram",
+                "type": "test"
+            },
+            {
+                "id": "pulmonary_arterial_hypertension_35232468_1",
+                "text": "pulmonary arterial hypertension",
+                "type": "disease"
+            },
+            {
+                "id": "right_heart_catheterization_35232468_1",
+                "text": "right heart catheterization",
+                "type": "test"
+            }
+        ],
+        "relations": [
+            {
+                "type": "has_result",
+                "subject": "genetic_testing_35232468_1",
+                "object": "ACVRL1_35232468_1"
+            },
+            {
+                "type": "has_result",
+                "subject": "echocardiogram_35232468_1",
+                "object": "pulmonary_arterial_hypertension_35232468_1"
+            },
+            {
+                "type": "has_result",
+                "subject": "right_heart_catheterization_35232468_1",
+                "object": "pulmonary_arterial_hypertension_35232468_1"
+            }
+        ],
+        "sent_id": "35232468_1",
+        "text": "Genetic testing confirmed an ACVRL1 mutation, while an echocardiogram and right heart catheterization confirmed pulmonary arterial hypertension."
+    },
+    {
+        "entities": [
+            {
+                "id": "baby_33750440_6",
+                "text": "baby",
+                "type": "person"
+            },
+            {
+                "id": "Bilateral_CDH_33750440_6",
+                "text": "Bilateral CDH",
+                "type": "disease"
+            },
+            {
+                "id": "hypoplasia_of_the_corpus_callosum_33750440_6",
+                "text": "hypoplasia of the corpus callosum",
+                "type": "disease"
+            },
+            {
+                "id": "atrial_septal_defect_33750440_6",
+                "text": "atrial septal defect",
+                "type": "disease"
+            },
+            {
+                "id": "hypothyroidism_33750440_6",
+                "text": "hypothyroidism",
+                "type": "disease"
+            }
+        ],
+        "relations": [
+            {
+                "type": "affected_by",
+                "subject": "baby_33750440_6",
+                "object": "Bilateral_CDH_33750440_6"
+            },
+            {
+                "type": "affected_by",
+                "subject": "baby_33750440_6",
+                "object": "hypoplasia_of_the_corpus_callosum_33750440_6"
+            },
+            {
+                "type": "affected_by",
+                "subject": "baby_33750440_6",
+                "object": "atrial_septal_defect_33750440_6"
+            },
+            {
+                "type": "affected_by",
+                "subject": "baby_33750440_6",
+                "object": "hypothyroidism_33750440_6"
+            }
+        ],
+        "sent_id": "33750440_6",
+        "text": "Bilateral CDH, hypoplasia of the corpus callosum, atrial septal defect, and hypothyroidism were also detected in the baby."
+    },
+    {
+        "entities": [
+            {
+                "id": "She_35232458_14",
+                "text": "She",
+                "type": "person"
+            },
+            {
+                "id": "ivermectin_35232458_14",
+                "text": "tablets ivermectin",
+                "type": "medication"
+            },
+            {
+                "id": "zinc_35232458_14",
+                "text": "zinc",
+                "type": "medication"
+            },
+            {
+                "id": "vitamin_C_35232458_14",
+                "text": "vitamin C",
+                "type": "medication"
+            },
+            {
+                "id": "montelukast_35232458_14",
+                "text": "montelukast",
+                "type": "medication"
+            },
+            {
+                "id": "azithromycin_35232458_14",
+                "text": "azithromycin",
+                "type": "medication"
+            },
+            {
+                "id": "metronidazole_35232458_14",
+                "text": "metronidazole",
+                "type": "medication"
+            },
+            {
+                "id": "pantoprazole_35232458_14",
+                "text": "injectable pantoprazole",
+                "type": "medication"
+            }
+        ],
+        "relations": [
+            {
+                "type": "treated_by",
+                "subject": "She_35232458_14",
+                "object": "ivermectin_35232458_14"
+            },
+            {
+                "type": "treated_by",
+                "subject": "She_35232458_14",
+                "object": "zinc_35232458_14"
+            },
+            {
+                "type": "treated_by",
+                "subject": "She_35232458_14",
+                "object": "vitamin_C_35232458_14"
+            },
+            {
+                "type": "treated_by",
+                "subject": "She_35232458_14",
+                "object": "montelukast_35232458_14"
+            },
+            {
+                "type": "treated_by",
+                "subject": "She_35232458_14",
+                "object": "azithromycin_35232458_14"
+            },
+            {
+                "type": "treated_by",
+                "subject": "She_35232458_14",
+                "object": "metronidazole_35232458_14"
+            },
+            {
+                "type": "treated_by",
+                "subject": "She_35232458_14",
+                "object": "pantoprazole_35232458_14"
+            }
+        ],
+        "sent_id": "35232458_14",
+        "text": "She was kept on a course of tablets ivermectin, zinc, vitamin C, montelukast, azithromycin, metronidazole, and injectable pantoprazole."
+    },
+    {
+        "entities": [
+            {
+                "id": "patient_35773682_1",
+                "text": "patient",
+                "type": "person"
+            },
+            {
+                "id": "hematopoietic_abnormalities_35773682_1",
+                "text": "hematopoietic abnormalities",
+                "type": "desease"
+            },
+            {
+                "id": "cardiac_arrest_35773682_1",
+                "text": "cardiac arrest",
+                "type": "desease"
+            },
+            {
+                "id": "pulmonary_hemorrhage_35773682_1",
+                "text": "pulmonary hemorrhage",
+                "type": "desease"
+            },
+            {
+                "id": "examination_35773682_1",
+                "text": "examination",
+                "type": "event"
+            }
+        ],
+        "relations": [
+            {
+                "type": "affected_by",
+                "subject": "patient_35773682_1",
+                "object": "hematopoietic_abnormalities_35773682_1"
+            },
+            {
+                "type": "affected_by",
+                "subject": "patient_35773682_1",
+                "object": "cardiac_arrest_35773682_1"
+            },
+            {
+                "type": "causes",
+                "subject": "pulmonary_hemorrhage_35773682_1",
+                "object": "cardiac_arrest_35773682_1"
+            },
+            {
+                "type": "temporally_related_to",
+                "subject": "cardiac_arrest_35773682_1",
+                "object": "examination_35773682_1"
+            },
+            {
+                "type": "carries_out",
+                "subject": "patient_35773682_1",
+                "object": "examination_35773682_1"
+            }
+        ],
+        "sent_id": "35773682_1",
+        "text": "During a thorough examination of hematopoietic abnormalities, the patient suddenly went into cardiac arrest due to pulmonary hemorrhage."
+    },
+    {
+        "entities": [
+            {
+                "id": "normal_levels_35462530_9",
+                "text": "normal levels",
+                "type": "condition"
+            },
+            {
+                "id": "plasma_glucose_35462530_9",
+                "text": "plasma glucose",
+                "type": "attribute"
+            },
+            {
+                "id": "electrolyte_levels_35462530_9",
+                "text": "electrolyte levels",
+                "type": "attribute"
+            },
+            {
+                "id": "1-year_follow-up_35462530_9",
+                "text": "1-year follow-up",
+                "type": "time"
+            }
+        ],
+        "relations": [
+            {
+                "type": "measurement_of",
+                "subject": "normal_levels_35462530_9",
+                "object": "plasma_glucose_35462530_9"
+            },
+            {
+                "type": "measurement_of",
+                "subject": "normal_levels_35462530_9",
+                "object": "electrolyte_levels_35462530_9"
+            },
+            {
+                "type": "temporally_related_to",
+                "subject": "normal_levels_35462530_9",
+                "object": "1-year_follow-up_35462530_9"
+            }
+        ],
+        "sent_id": "35462530_9",
+        "text": "Her plasma glucose and electrolyte levels were at normal levels at her 1-year follow-up."
+    }
+]

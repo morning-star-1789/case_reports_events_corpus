@@ -82,12 +82,27 @@ again to avoid the introduction of spurious contextual inferences in the annotat
 The corpus is composed of 200 completely annotated sentences (for a total of 2780 words).
 Globally it contains 681 triples, completely annotated with subject and object roles.
 There are a total of 18 predicate types and 20 entity types : the top ten are listed here:
-<img width="325" alt="predicate types and  entity types " src="https://github.com/morning-star-1789/case_reports_events_corpus/blob/main/assets/type_dist.png">
+<img width="325" alt="predicate types and  entity types " src="https://github.com/morning-star-1789/case_reports_events_corpus/blob/main/assets/table_types.png">
 ## Files
 In this distribution you will find the following files:
 - annotation_guidelines.pdf : the annotation guidelines
 - gold.json: the 200 sentences annotated and exported in json format
 - gold_new.json: 50 sentences which were annotated after the experiments described in the companion papers were performed
+- gold.sqlite3: the whole annotated corpus as an sqlite3 file
+- top-ten-predicate-normalization.pdf: a table containing the top ten normalization described in the paper
+- relation_mapper.py: a python module containing the statements used to perfom predicate mapping. They are explained in detail in the long version of the paper.
+
+## Further works
+This is not an immutable version of the corpus, but just a preliminary one. In the future we plan to publish a second version validated by a domain expert and, if possible, 
+enriched with more sentences.
+## How to quote:
+```
+@misc{ldpj,
+      title={Rule-based Mapping: an Efficient Strategy for Event Extraction with LLMs}, 
+      author={Luca Dini, Pierre Jourlin },
+      year={Under Review}
+}
+
 
 
 

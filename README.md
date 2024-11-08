@@ -82,7 +82,7 @@ again to avoid the introduction of spurious contextual inferences in the annotat
 The corpus is composed of 200 completely annotated sentences (for a total of 2780 words).
 Globally it contains 681 triples, completely annotated with subject and object roles.
 There are a total of 18 predicate types and 20 entity types : the top ten are listed here:
-<img width="325" alt="predicate types and  entity types " src="https://github.com/morning-star-1789/case_reports_events_corpus/assets/type_dist.png">
+<img width="325" alt="predicate types and  entity types " src="https://github.com/morning-star-1789/case_reports_events_corpus/blob/main/assets/type_dist.png">
 ## Files
 In this distribution you will find the following files:
 - annotation_guidelines.pdf : the annotation guidelines

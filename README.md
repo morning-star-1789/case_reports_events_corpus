@@ -48,7 +48,7 @@ with full expansion of the ipsilateral lung." is annotated as
 ]
 }
 ```
-In order to have a sound base for annotation we selected 500 abstracts from the journal
+In order to have a sound base for annotation we selected 500 abstracts from the journal 
 Medical Case Reports on EuropePMC, all being positive responses to the query cardiac
 issued via the standard PMC API. After the usual textual cleansing, we performed sentence
 splitting by using the NLTK sentence tokenizer, obtaining 2700 sentences which represents
@@ -91,6 +91,7 @@ In this distribution you will find the following files:
 - gold.sqlite3: the whole annotated corpus as an sqlite3 file
 - top-ten-predicate-normalization.pdf: a table containing the top ten normalization described in the paper
 - relation_mapper.py: a python module containing the statements used to perfom predicate mapping. They are explained in detail in the long version of the paper.
+- memory consumption-v3.xlsx: the detailed spreadsheet we used for the calculation of energy consumption
 
 ## Further works
 This is not an immutable version of the corpus, but just a preliminary one. In the future we plan to publish a second version validated by a domain expert and, if possible, 

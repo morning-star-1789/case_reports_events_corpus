@@ -98,10 +98,13 @@ This is not an immutable version of the corpus, but just a preliminary one. In t
 enriched with more sentences.
 ## How to quote:
 ```
-@misc{ldpj,
-      title={Rule-based Mapping: an Efficient Strategy for Event Extraction with LLMs}, 
-      author={Luca Dini, Pierre Jourlin },
-      year={Under Review}
+@article{RNTI/papers/1002980,
+  author    = {Luca Dini and Pierre Jourlin},
+  title     = {Normalisation à base de règles: une stratégie efficiente pour l'extraction d'évènements fondée sur des LLMs},
+  journal = {Revue des Nouvelles Technologies de l'Information},
+  volume = {Extraction et Gestion des Connaissances, RNTI-E-41},
+  year      = {2025},
+  pages     = {15-26}
 }
 
 
